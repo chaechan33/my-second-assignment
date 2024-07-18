@@ -10,3 +10,79 @@
     font-variation-settings:
         "slnt" 0;
 }
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.text-white {
+    color: rgb(255, 255, 255);
+}
+
+.bg-colour {
+    background-color: rgb(17, 17, 17);
+}
+
+.btn-styles {
+    border-radius: 46px;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    width: 92px;
+    height: 38px;
+
+}
+
+.home-btn {
+    padding-left: 20px;
+}
+
+
+/* header styles */
+
+
+
+
+/* navbar related styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 35px;
+
+}
+
+.nav-links {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+
+}
+
+.nav-items {
+
+    list-style: none;
+    margin-right: 35px;
+
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+
+}
+
+.brand {
+    color: rgb(230, 83, 60);
+
+
+}
