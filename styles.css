@@ -22,6 +22,7 @@
 
 .bg-colour {
     background-color: rgb(17, 17, 17);
+
 }
 
 .btn-styles {
@@ -34,7 +35,9 @@
 }
 
 .home-btn {
-    padding-left: 20px;
+
+    text-align: center;
+
 }
 
 
@@ -83,6 +86,276 @@
 
 .brand {
     color: rgb(230, 83, 60);
+    padding-left: 100px;
+    font-size: 33px;
 
 
+
+
+
+}
+
+/* banner related styles */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+
+}
+
+.banner {
+    display: flex;
+
+}
+
+.banner-title {
+    width: 520px;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+
+    padding-left: 80px;
+}
+
+.banner-text {
+
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+
+}
+
+.download-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    height: 54px;
+
+
+}
+
+.join-now-btn {
+
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    width: 200px;
+    height: 54px;
+
+
+}
+
+/* image info styles */
+.img-info-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    left: 764px;
+    top: 556px;
+
+
+}
+
+.img-text-1 {
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.img-text-2 {
+    color: rgba(239, 237, 232, 0.65);
+}
+
+
+.img-info-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    left: 1107px;
+    top: 260px;
+}
+
+.img-title-2 {
+    padding-left: 40px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/* fitness  related styles  */
+.fitness-part-2 {
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.fitness-part-1 {
+    text-align: center;
+
+}
+
+.fitness-sec {
+
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-for-fitness {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 100px;
+
+
+}
+
+
+.title-for-fitness {
+
+    color: rgb(255, 255, 255);
+}
+
+.fitness-title {
+
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+
+.fitness-img {
+    border-radius: 50%;
+}
+
+.fitness-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+/* run section styles */
+
+.run-content {
+    /* border-radius: 10px; */
+    background: rgb(34, 34, 34);
+    display: flex;
+
+    padding-left: 60px;
+    align-items: center;
+    width: 1060px;
+    height: 331px;
+
+
+
+
+}
+
+.run-img {
+    width: 326px;
+    height: 226px;
+    border-radius: 18px;
+
+}
+
+.run-btn {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    width: 200px;
+    height: 54px;
+
+
+}
+
+.run-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.run-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+
+/* calculator related styles */
+
+.calculator-table {
+    border-collapse: collapse;
+    width: 600px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+td,
+th {
+    border: 1px solid white;
+    padding: 0px 10px;
+}
+
+
+
+.calculator-part-2 {
+    color: rgb(255, 255, 255);
+}
+
+.calculator-part-3 {
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+
+}
+
+.calculator-part-1 {
+    text-align: center;
+    margin: none;
+    color: rgb(255, 255, 255);
+}
+
+.calculator-title-3 {
+    text-align: center;
+}
+
+.calculator-title-2 {
+    text-align: center;
+}
+
+.calcu-bottom-part {
+    display: flex;
+    margin-top: none;
 }
