@@ -456,9 +456,95 @@ th {
 }
 
 .name-img {
-
-
     width: 326.67px;
     height: 272px;
+    border-radius: 13px;
 
+
+}
+
+.name-info {
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.names-part-2 {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+
+
+.names-row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.names-row-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.name-career {
+    color: rgba(0, 0, 0, 0.2);
+
+}
+
+/* footer related styles */
+.footer-sec {
+    display: flex;
+
+}
+
+
+.footer-info {
+    list-style: none;
+
+}
+
+.footer-title {
+    color: rgb(230, 83, 60);
+    padding-left: 100px;
+    font-size: 45px;
+    font-family: Inter;
+
+}
+
+.get-started {
+
+    font-family: Inter;
+    font-size: 22px;
+
+}
+
+.footer-part-1 {
+    color: rgb(255, 255, 255);
+}
+
+
+
+.footer-part-2 {
+    color: rgb(255, 255, 255);
+
+}
+
+.footer-part-3 {
+    color: rgb(255, 255, 255);
+}
+
+.copyright {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
