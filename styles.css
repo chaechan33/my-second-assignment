@@ -107,6 +107,10 @@ span {
 
 }
 
+.banner-img {
+    width: 100%;
+}
+
 .banner-title {
     width: 520px;
     height: 281px;
@@ -382,6 +386,7 @@ th {
 .calcu-bottom-part {
     display: flex;
     margin-top: 0;
+    width: 100%;
 
 }
 
@@ -450,6 +455,10 @@ th {
     padding-top: 80px;
 }
 
+.name-sec {
+    width: 100%;
+}
+
 .names-text {
     text-align: center;
     color: rgb(255, 255, 255);
@@ -459,6 +468,7 @@ th {
     width: 326.67px;
     height: 272px;
     border-radius: 13px;
+    width: 100%;
 
 
 }
@@ -547,4 +557,25 @@ th {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .nav-link {
+        flex-direction: column;
+    }
+
+    .banner,
+    .fitness-sec,
+    .run-content {
+        flex-direction: column;
+    }
+
+    .calculator-part-1,
+    .calcu-bottom-part,
+    .name-img,
+    .footer-sec {
+        flex-direction: column;
+    }
 }
