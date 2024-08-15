@@ -31,7 +31,7 @@
 
 span {
     font-family: 'Miama', sans-serif;
-    font-size: 90px;
+    font-size: 100px;
 }
 
 .home-btn {
@@ -58,6 +58,8 @@ span {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
+    text-align: center;
+
 
 
 }
@@ -282,11 +284,13 @@ span {
     border-radius: 18px;
     background: rgb(34, 34, 34);
     display: flex;
-    width: 1000px;
+    width: 900px;
 
-    height: 300px;
+    height: 340px;
     align-items: center;
     justify-content: center;
+    padding-left: 205px;
+
 
 
 }
@@ -294,8 +298,8 @@ span {
 
 
 .run-img {
-    width: 326px;
-    height: 226px;
+    width: 300px;
+    height: 230px;
     border-radius: 18px;
 
 }
@@ -335,9 +339,23 @@ span {
     border-collapse: collapse;
     color: rgb(255, 255, 255);
     width: 300px;
-    height: 216px;
+    height: 230px;
+
 }
 
+#select-2 {
+    color: white;
+    background-color: rgb(34, 34, 34);
+    justify-self: ;
+
+}
+
+#select-1 {
+    color: white;
+    background-color: rgb(34, 34, 34);
+
+
+}
 
 
 td,
@@ -385,7 +403,7 @@ th {
 
 .calcu-bottom-part {
     display: flex;
-    margin-top: 0;
+    margin: none;
     width: 100%;
 
 }
@@ -405,7 +423,7 @@ th {
 }
 
 .main-calculator-text2 {
-    position: static;
+    /* position: static; */
     width: 577px;
     height: 18px;
     border-radius: 8px;
@@ -413,8 +431,10 @@ th {
     display: flex;
     padding: 12px 20px 12px 20px;
 
-
 }
+
+
+
 
 
 
@@ -429,15 +449,10 @@ th {
     text-align: center;
 }
 
-.calculate-btn {
 
 
-    /* position: static; */
-    width: 224px;
-    height: 54px;
-    justify-content: center;
-    align-items: center;
-}
+
+
 
 
 
@@ -445,74 +460,87 @@ th {
     text-align: center;
 }
 
-/* names related styles */
 
-.names-title {
+
+
+
+
+
+
+
+/* teams-intro related styles */
+
+.teams-intro-top {}
+
+.top-title {
     text-align: center;
-    font-size: 50px;
     color: rgb(255, 255, 255);
-    margin-top: 0;
-    padding-top: 80px;
+
 }
 
-.name-sec {
+.top-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+.teams-intro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 0px 70px;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    margin-top: 0 19px;
+
+
+
+}
+
+.teams-intro-img {
     width: 100%;
-}
-
-.names-text {
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
-
-.name-img {
+    position: static;
     width: 326.67px;
     height: 272px;
-    border-radius: 13px;
-    width: 100%;
-
-
-}
-
-.name-info {
-    text-align: center;
-    color: rgb(255, 255, 255);
-
-}
-
-.names-part-2 {
+    margin: 10px 0px;
     border-radius: 18px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.2);
 
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+
+
+
+}
+
+.teams-intro-1 {
+    display: relative;
+}
+
+.teams-intro-text-2 {
+
+    color: rgb(255, 255, 255);
+    display: absolute;
+}
+
+
+.teams-intro-text-1 {
+    color: rgb(255, 255, 255);
+    display: absolute;
 
 }
 
 
 
-
-.names-row {
-    display: flex;
-    justify-content: center;
-
-}
-
-.names-row-2 {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-
-}
-
-.name-career {
-    color: rgba(0, 0, 0, 0.2);
-
-}
 
 /* footer related styles */
 .footer-sec {
     display: flex;
+
+
+
 
 }
 
@@ -531,7 +559,7 @@ th {
 }
 
 .get-started {
-
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 22px;
 
@@ -539,37 +567,65 @@ th {
 
 .footer-part-1 {
     color: rgb(255, 255, 255);
+
+
+}
+
+.footer-boader {
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    border: 18px;
+
+    /* Frame 56 */
+    position: static;
+    width: 1400px;
+    height: 300px;
+    justify-content: center;
+    margin: 88px 0px;
 }
 
 
 
 .footer-part-2 {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
+
 
 }
 
 .footer-part-3 {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255, 0.5);
+
 }
 
 .copyright {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255, 0.5);
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+
 }
 
 @media screen and (max-width:576px) {
 
     .navbar,
     .nav-link {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr)
     }
+
 
     .banner,
     .fitness-sec,
     .run-content {
         flex-direction: column;
+        grid-template-columns: repeat(1, 1fr)
     }
 
     .calculator-part-1,
@@ -577,5 +633,6 @@ th {
     .name-img,
     .footer-sec {
         flex-direction: column;
+        grid-template-columns: repeat(1, 1fr)
     }
 }
